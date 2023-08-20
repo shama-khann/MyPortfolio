@@ -26,8 +26,8 @@
 </head>
 <body oncontextmenu="return false">
 
-<!-- pre loader -->
-<!-- <div class="loader-container">
+<!-- pre loader 
+<div class="loader-container"> 
   <img draggable="false" src="./assets/images/preloader.gif" alt="">
 </div> -->
 
@@ -52,22 +52,23 @@
 <!-- contact section starts -->
 <section class="contact" id="contact">
   
-    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+   <h2 class="heading"><i class="fa fa-comments-o"></i> Get in <span>Touch</span></h2>
   
     <div class="container">
       <div class="content">
         <div class="image-box">
           <img draggable="false" src="./assets/images/contact1.png" alt="">
         </div>
-      <form id="contact-form">
+      <form id="contact-form" action="https://formsubmit.co/khanshama57434@gmail.com" method="POST">
         
         <div class="form-group">
           <div class="field">
+            
             <input type="text" name="name" placeholder="Name" required>
             <i class='fas fa-user'></i>
           </div>
           <div class="field">
-            <input type="text" name="email" placeholder="Email" required>
+            <input type="text" id="email" placeholder="Email" autocapitalize="none" required>
             <i class='fas fa-envelope'></i>
           </div>
           <div class="field">
@@ -80,10 +81,10 @@
           </div>
           </div>
         <div class="button-area">
-          <button type="submit">
+          <button type="submit" value="Send">
             Submit <i class="fa fa-paper-plane"></i></button>
         </div>
-      </form>
+        </form>
     </div>
     </div>
   </section>
