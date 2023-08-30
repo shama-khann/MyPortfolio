@@ -729,13 +729,14 @@ body{
   overflow: hidden;
   height: 30rem;
 }
-.skills .viewall .btn:hover {
-  background: #fff;
-  color: #000;
+.skills .container .bar .percent{
+  visibility: hidden;
 }
-.skills .viewall .btn:hover i {
-  transform: translateX(5px);
+.skills .container .bar:hover .percent{
+  visibility: visible;
+  font-size: x-large;
 }
+
 /* skills media queries ends*/
 /* skills section ends */
 
